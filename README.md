@@ -38,5 +38,6 @@ uvicorn main:app --reload
 
 📱 Example Call
 ```
-GET http://localhost:8000/send_message?phone_number=+1234567890
+GET http://localhost:8000/send_message?phone_number=1234567890
 ```
+
