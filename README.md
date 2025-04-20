@@ -26,8 +26,11 @@ pip install -r requirements.txt
 ```
 
 3.Edit config.py with your WhatsApp API credentials.
+Tested with my credentials
 
-    for example, added my sample whatsapp number()
+    ACCESS_TOKEN = ""
+    PHONE_NUMBER_ID = ""
+    WHATSAPP_API_URL = ""
 
 
 4.Run the server:
@@ -38,6 +41,6 @@ uvicorn main:app --reload
 
 📱 Example Call
 ```
-GET http://localhost:8000/send_message?phone_number=1234567890
+GET http://localhost:8000/send_message?phone_number=911234567890
 ```
 
